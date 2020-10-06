@@ -35,6 +35,7 @@
   /* выше установили ограничения для секции */
   display: flex;
   background-color: #f2f2f2;
+  position: relative;
 }
 
 .header__title{
@@ -87,10 +88,11 @@
 .content{
   display: flex;
   flex-direction: column;
+  max-width: 100%;
 }
 
 .description{
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,12 +101,14 @@
 
 .two-columns{
   display: flex;
+  flex-direction: row;
   width: 80%;
   justify-content: space-between;
   align-items: flex-start;
 }
 
 .two-columns__brief{
+  margin-top: 0px;
   color: #2f80ed;
   width: 175px;
   font-weight: normal;
@@ -113,17 +117,20 @@
 }
 
 .two-columns__main-text{
+  margin-top: -30px;
+  margin-bottom: 0px;
   min-width: 784px;
   width: 80%;
   list-style: none;
+  padding-left: 0px;
 }
 
 .two-columns__paragraph{
-  margin: 0;
-  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding: 0px;
   font-size: 24px;
   line-height: 34px;
-  padding-bottom: 30px;
 }
 
 .two-columns__span-accent{
@@ -186,9 +193,6 @@
 }
 
 .kaufman{
-  height: 100vh;
-  padding-top: 90px;
-  padding-bottom: 90px;
   background-color: #1f1f1f;
   display: flex;
   position: relative;
@@ -211,9 +215,6 @@
 /* и элемента с модификатором вида ключ-значение */
 
 .digits{
-  height: 100vh;
-  margin-top: 100px;
-  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -227,11 +228,11 @@
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  margin-top: 100px;
   margin-bottom: 20px;
 }
 
 .section-title_theme_dark{
+  margin-top: 90px;
   color: #fff;
   line-height: 1.15;
   font-size: 60px;
@@ -264,12 +265,15 @@
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
+  padding-left: 0px;
   margin: 0px auto 100px;
+  list-style: none;
   z-index: 2;
 }
 
 .table_theme_dark{
-
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .table__cell{
