@@ -1,0 +1,11 @@
+/* Стиль заголовка секции таблицы */
+.section-title{
+  margin-top: 0px;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  z-index: 2;
+}

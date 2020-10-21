@@ -1,0 +1,6 @@
+/* Стиль элемента khan__book-container */
+.khan__book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

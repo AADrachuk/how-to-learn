@@ -1,0 +1,5 @@
+/* Стиль первой колонки в центральном блоке подвала */
+.footer__column{
+  display: flex;
+  flex-direction: column;
+}

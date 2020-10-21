@@ -1,0 +1,9 @@
+/* Общий стиль для секции resources */
+.resources {
+  padding-top: 100px;
+  padding-bottom: 217px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,7 @@
+/* Стиль автора сайта */
+.footer__author{
+  margin-top: 18px 0px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}

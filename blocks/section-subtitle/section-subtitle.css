@@ -1,0 +1,11 @@
+/* Стиль подзаголовка секции таблицы */
+.section-subtitle{
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  z-index: 2;
+}

@@ -1,0 +1,6 @@
+/* Стиль списка ссылок в подвале */
+.footer__column-links{
+  list-style: none;
+  padding: 0px 0px 0px;
+  margin: 0px;
+}

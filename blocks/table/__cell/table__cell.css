@@ -1,0 +1,8 @@
+/* Стиль ячейки таблицы */
+.table__cell{
+  width: 250px;
+  list-style: none;
+  margin-top: 60px;
+  padding: 0px;
+  z-index: 2;
+}

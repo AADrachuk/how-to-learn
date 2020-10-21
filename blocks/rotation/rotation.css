@@ -1,0 +1,15 @@
+/* Анимация вращения фоновой фигуры */
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animated {
+  animation: rotation 20s linear infinite;
+}

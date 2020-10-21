@@ -1,0 +1,6 @@
+/* Стиль ячейки в темной теме */
+.table__cell_theme_dark {
+  margin-top: 80px;
+  width: 200px;
+  color: white;
+}

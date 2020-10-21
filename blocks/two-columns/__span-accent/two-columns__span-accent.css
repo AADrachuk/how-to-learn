@@ -1,0 +1,6 @@
+/* Стиль жирного выделения в блоке description */
+.two-columns__span-accent{
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+}

@@ -1,0 +1,13 @@
+/* Стиль таблицы */
+.table{
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin: 0px auto;
+  list-style: none;
+  z-index: 2;
+}

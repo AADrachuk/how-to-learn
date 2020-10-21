@@ -1,0 +1,13 @@
+/* Стили ссылок в подвале */
+.footer__column-link {
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-link:hover {
+  opacity: .5;
+  transition: .5s;
+} 

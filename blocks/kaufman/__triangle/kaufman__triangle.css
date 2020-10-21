@@ -1,0 +1,11 @@
+/* Стиль треугольника в секции kaufman */
+.kaufman__triangle{
+  width: 877px;
+  height: 877px;
+  background-image: url("../../../images/kaufman-triangle.svg");
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+  right: -210px;
+  z-index: 0;
+}

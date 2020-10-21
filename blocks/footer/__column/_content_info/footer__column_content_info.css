@@ -1,0 +1,4 @@
+/* Стиль контента подвала */
+.footer__column_content_info{
+  justify-content: stretch;
+}

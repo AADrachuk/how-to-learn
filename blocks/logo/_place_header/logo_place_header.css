@@ -1,0 +1,9 @@
+/* Стиль логотипа в шапке */
+.logo_place_header{
+  background-image: url("../../../logo/logo_place_header.svg");
+  background-size: content;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 3;
+}

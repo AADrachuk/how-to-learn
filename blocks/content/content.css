@@ -1,0 +1,6 @@
+/* Стиль основного содержания страницы */
+.content{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}

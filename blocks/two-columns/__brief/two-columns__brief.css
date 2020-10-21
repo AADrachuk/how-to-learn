@@ -1,0 +1,9 @@
+/* Стиль заголовка блока description */
+.two-columns__brief{
+  margin-top: 0px;
+  color: #2f80ed;
+  width: 175px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2;
+}
