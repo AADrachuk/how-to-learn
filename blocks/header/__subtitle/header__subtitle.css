@@ -1,5 +1,7 @@
 /* Стиль подзаголовка в шапке */
 .header__subtitle{
+  margin: 0px;
+  padding: 0px;
   width: 388px;
   font-size: 18px;
   font-weight: normal;

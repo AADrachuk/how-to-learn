@@ -1,5 +1,6 @@
 /* Стиль заголовка секции feynman */
 .feynman__title{
+  margin: 0px;
   width: 648px;
   line-height: 1.15;
   font-size: 120px;

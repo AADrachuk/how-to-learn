@@ -1,8 +1,9 @@
 /* Стиль элемента khan__quote */
 .khan__quote {
+  margin: 0;
   max-width: 790px;
   margin-top: 50px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
